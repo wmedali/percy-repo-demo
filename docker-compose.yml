@@ -1,0 +1,7 @@
+services:
+  cypress-runner:
+    build:
+      context: .
+    volumes:
+      - "./cypress:/tests/cypress"
+      - "./cypress.config.js:/tests/cypress.config.js"

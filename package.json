@@ -1,0 +1,19 @@
+{
+  "name": "ambient-it-decembre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open --e2e --browser chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.0"
+  },
+  "devDependencies": {
+    "@percy/cli": "^1.27.5",
+    "@percy/cypress": "^3.1.2"
+  }
+}
